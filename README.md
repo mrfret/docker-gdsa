@@ -7,7 +7,7 @@
 ```
 
 So if you see a broken part plz report it here
-           over githube issues
+           over github issues
            or on the Discord
 
    All the Contributors you can see at the end
