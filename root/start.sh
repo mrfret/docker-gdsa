@@ -31,5 +31,5 @@ MOUNT=/system/mount/keys/.env
 GDSA=/system/servicekeys/.env
 
 if [[ -f $MOUNT ]];then bash mountstart.sh;fi
-if [[ -f $GDSA ]];then bash mountstart.sh;fi
+if [[ -f $GDSA ]];then bash gdsastart.sh;fi
 #"
