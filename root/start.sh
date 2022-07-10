@@ -26,10 +26,8 @@ EOF
 
    install=(python3 py3-crcmod py3-openssl bash libc6-compat openssh-client git gnupg bc curl wget openssl ca-certificates)
 
-   log "**** update system packages ****" && \
    apk --quiet --no-cache --no-progress update && \
    apk --quiet --no-cache --no-progress upgrade && \
-   log "**** install build packages ****" && \
    apk add --quiet --no-cache --no-progress --virtual=build-dependencies ${install[@]}
    unset install
 
