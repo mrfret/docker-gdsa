@@ -97,7 +97,7 @@ directory_name_encryption = true
 password = $PASSWORD
 password2 = $SALT
 
-"
+
 fi
 done
 }
