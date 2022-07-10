@@ -85,6 +85,7 @@ scope = drive
 service_account_file = /system/servicekeys/keys/GDSA${build}
 team_drive = ${TEAMDRIVEID}
 
+"
 if [[ ${ENCRYPT} == "true" || ${ENCRYPT} == "TRUE" ]]; then
    PASSWORD=${PASSWORD}
    SALT=${SALT}
@@ -97,7 +98,7 @@ directory_name_encryption = true
 password = $PASSWORD
 password2 = $SALT
 
-
+"
 fi
 done
 }
